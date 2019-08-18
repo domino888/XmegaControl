@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppBackgroundColor"
+    tools:context="com.example.dominik.xmegacontrol.BUTFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textAlignment="center"
+        android:textColor="@color/TitleColor"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/TitleTextview"
+        android:textStyle="bold"
+        android:background="@color/TitleBackgroundColor"
+        android:text="@string/BUT_text"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleTextview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="30sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="@string/Status"
+            android:textAlignment="center"
+            android:textColor="@color/DarkColor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/PressedButtonStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:maxLines="1"
+            android:textColor="@color/DarkColor"
+            android:textSize="20sp"
+            android:hint="@string/ButHint"
+            android:textStyle="normal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/TitleTextview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0sp"
+        android:orientation="horizontal"
+        android:layout_marginTop="60sp">
+        <Button
+            android:id="@+id/ButtonSW0"
+            android:layout_width="175sp"
+            android:layout_height="150sp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/ButtonColor"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/ButtonSW0" />
+        <Button
+            android:id="@+id/ButtonSW1"
+            android:layout_width="175sp"
+            android:layout_height="150sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="@color/ButtonColor"
+            android:text="@string/ButtonSW1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/TitleTextview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0sp"
+        android:orientation="horizontal"
+        android:layout_marginTop="210sp">
+        <Button
+            android:id="@+id/ButtonSW2"
+            android:layout_width="175sp"
+            android:layout_height="150sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="@color/ButtonColor"
+            android:text="@string/ButtonSW2" />
+        <Button
+            android:id="@+id/ButtonSW3"
+            android:layout_width="175sp"
+            android:layout_height="150sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="@color/ButtonColor"
+            android:text="@string/ButtonSW3" />
+   </LinearLayout>
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="460sp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/arrow2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500sp"
+        android:text="@string/scrollText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />s
+</RelativeLayout>

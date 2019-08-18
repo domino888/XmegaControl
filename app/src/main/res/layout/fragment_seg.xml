@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppBackgroundColor"
+    tools:context="com.example.dominik.xmegacontrol.SEGFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textAlignment="center"
+        android:textColor="@color/TitleColor"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/TitleTextview"
+        android:textStyle="bold"
+        android:background="@color/TitleBackgroundColor"
+        android:text="@string/SEG_text"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleTextview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="30sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="@string/Status"
+            android:textAlignment="center"
+            android:textColor="@color/DarkColor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/SegmentStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:maxLines="1"
+            android:textColor="@color/DarkColor"
+            android:textSize="20sp"
+            android:hint="@string/SegHint"
+            android:textStyle="normal" />
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/SegmentsSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="320sp">
+        <Button
+            android:id="@+id/ClearSegment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:backgroundTint="@color/ButtonColor"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="@string/ClearSegment" />
+        <Button
+            android:id="@+id/SendSegment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/ButtonColor"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/SendSegment" />
+    </LinearLayout>
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="460sp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/arrow2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500sp"
+        android:text="@string/scrollText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd = "10sp"
+            android:layout_marginTop="460sp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow" />
+</RelativeLayout>

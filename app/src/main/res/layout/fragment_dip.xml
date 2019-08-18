@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppBackgroundColor"
+    tools:context="com.example.dominik.xmegacontrol.DIPFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textAlignment="center"
+        android:textColor="@color/TitleColor"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/TitleTextview"
+        android:textStyle="bold"
+        android:background="@color/TitleBackgroundColor"
+        android:text="@string/DIP_text"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleTextview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="50sp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="@string/DipSwitchStatus"
+            android:textAlignment="center"
+            android:textColor="@color/DarkColor"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginVertical="20sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0sp"
+            android:layout_marginTop="50sp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:maxLines="1"
+                android:textColor="@color/DarkColor"
+                android:text="@string/BinValue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/DipSwitchStatusBin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:maxLines="1"
+                android:textColor="@color/DarkColor"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:maxLines="1"
+                android:textColor="@color/DarkColor"
+                android:text="@string/HexValue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/DipSwitchStatusHex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:maxLines="1"
+                android:textColor="@color/DarkColor"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/ReadDipSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="320sp"
+        android:backgroundTint="@color/ButtonColor"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="@string/ReadDipSwitch" />
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="460sp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/arrow2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500sp"
+        android:text="@string/scrollText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500sp"
+        android:text="@string/scrollText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10sp"
+        android:layout_marginTop="460sp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/arrow" />
+</RelativeLayout>

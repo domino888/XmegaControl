@@ -1,0 +1,204 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\837442cd09bd118fe388470a3e53a50e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\2b9eae76e0f1690986f3031f92af7ef9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\d8c7e1264f3a4911b3263ed95955a20e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\5808bf0d72b3d96583eaffa7163b5308\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\de4b2d77f21823bb504e66531fc72c4f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\95578aef255380d448de69d287f00a4d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\415b8ff160068940498e3fd2d68b072f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\1790332a601ae1f2dc23402c5b2f0bc4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\41ec28a6a4830ce7de9d4dd91c10487e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\00ea683c793003e14d93ea2f68b79f19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\b95346dd25b92f92508a1fcaa3605882\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\0d3adee22bcd44bd5103722bbda193ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\741870922360d156503116cf8cae1efc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\2dc056cbb0dae3885c1cb1c0b2916bbe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f9065e79e7d600502624616a083e0fd1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\203e0151712b773beda0dbea78fb36b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\fa4c3b6631535e3d4134d47c787fd375\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\3b3a6fe0b3eb1fdaec6b33823ed9a8ab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f4eb3265549ea0cbd3ddf0f9b51cbe36\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\bfb99d36e3b1d7bb152c1f2e9fe5c8cb\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\cdba56e10beda80053040361507f7544\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\665f5638a5041a6dcd4aabd89e38df13\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\91b288c9b2bd1f6e7378431cc83189fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\ba8dd3a3b33812c5ebad0ed6448491f9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\a984e9a2d7a1353f0db3ba7b10b965dd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\2db499974b365e4fabe5f4c237047d3d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\cbbbb3700eb0e6b783c261087377ef16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\33ce2c52527ad47cf67c999813b2ca5d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\19b2d5b0b358c20fe22e85f30f2e4549\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f5e70293e45b42663a824630de6bd867\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\bf0d25631e56d41ec82c3a9016a494aa\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:6:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:8:22-78
+permission#android.permission.BLUETOOTH
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:10:5-89
+	android:label
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:10:61-86
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:10:17-60
+permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:11:5-69
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:11:17-66
+permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:12:17-71
+permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:13:17-73
+application
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:15:5-31:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\837442cd09bd118fe388470a3e53a50e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\837442cd09bd118fe388470a3e53a50e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\d8c7e1264f3a4911b3263ed95955a20e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\d8c7e1264f3a4911b3263ed95955a20e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f4eb3265549ea0cbd3ddf0f9b51cbe36\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f4eb3265549ea0cbd3ddf0f9b51cbe36\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\bfb99d36e3b1d7bb152c1f2e9fe5c8cb\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\bfb99d36e3b1d7bb152c1f2e9fe5c8cb\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f4eb3265549ea0cbd3ddf0f9b51cbe36\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:18:9-41
+	android:roundIcon
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:19:9-54
+	android:icon
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:21:9-40
+activity#com.example.dominik.xmegacontrol.MainActivity
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:screenOrientation
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:22:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml:28:27-74
+uses-sdk
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\837442cd09bd118fe388470a3e53a50e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\837442cd09bd118fe388470a3e53a50e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\2b9eae76e0f1690986f3031f92af7ef9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\2b9eae76e0f1690986f3031f92af7ef9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\d8c7e1264f3a4911b3263ed95955a20e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\d8c7e1264f3a4911b3263ed95955a20e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\5808bf0d72b3d96583eaffa7163b5308\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\5808bf0d72b3d96583eaffa7163b5308\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\de4b2d77f21823bb504e66531fc72c4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\de4b2d77f21823bb504e66531fc72c4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\95578aef255380d448de69d287f00a4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\95578aef255380d448de69d287f00a4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\415b8ff160068940498e3fd2d68b072f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\415b8ff160068940498e3fd2d68b072f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\1790332a601ae1f2dc23402c5b2f0bc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\1790332a601ae1f2dc23402c5b2f0bc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\41ec28a6a4830ce7de9d4dd91c10487e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\41ec28a6a4830ce7de9d4dd91c10487e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\00ea683c793003e14d93ea2f68b79f19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\00ea683c793003e14d93ea2f68b79f19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\b95346dd25b92f92508a1fcaa3605882\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\b95346dd25b92f92508a1fcaa3605882\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\0d3adee22bcd44bd5103722bbda193ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\0d3adee22bcd44bd5103722bbda193ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\741870922360d156503116cf8cae1efc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\741870922360d156503116cf8cae1efc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\2dc056cbb0dae3885c1cb1c0b2916bbe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\2dc056cbb0dae3885c1cb1c0b2916bbe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f9065e79e7d600502624616a083e0fd1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f9065e79e7d600502624616a083e0fd1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\203e0151712b773beda0dbea78fb36b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\203e0151712b773beda0dbea78fb36b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\fa4c3b6631535e3d4134d47c787fd375\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\fa4c3b6631535e3d4134d47c787fd375\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\3b3a6fe0b3eb1fdaec6b33823ed9a8ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\3b3a6fe0b3eb1fdaec6b33823ed9a8ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f4eb3265549ea0cbd3ddf0f9b51cbe36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f4eb3265549ea0cbd3ddf0f9b51cbe36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\bfb99d36e3b1d7bb152c1f2e9fe5c8cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\bfb99d36e3b1d7bb152c1f2e9fe5c8cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\cdba56e10beda80053040361507f7544\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\cdba56e10beda80053040361507f7544\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\665f5638a5041a6dcd4aabd89e38df13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\665f5638a5041a6dcd4aabd89e38df13\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\91b288c9b2bd1f6e7378431cc83189fd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\91b288c9b2bd1f6e7378431cc83189fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\ba8dd3a3b33812c5ebad0ed6448491f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\ba8dd3a3b33812c5ebad0ed6448491f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\a984e9a2d7a1353f0db3ba7b10b965dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\a984e9a2d7a1353f0db3ba7b10b965dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\2db499974b365e4fabe5f4c237047d3d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\2db499974b365e4fabe5f4c237047d3d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\cbbbb3700eb0e6b783c261087377ef16\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\cbbbb3700eb0e6b783c261087377ef16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\33ce2c52527ad47cf67c999813b2ca5d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\33ce2c52527ad47cf67c999813b2ca5d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\19b2d5b0b358c20fe22e85f30f2e4549\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\19b2d5b0b358c20fe22e85f30f2e4549\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f5e70293e45b42663a824630de6bd867\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\f5e70293e45b42663a824630de6bd867\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\bf0d25631e56d41ec82c3a9016a494aa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kanth\.gradle\caches\transforms-2\files-2.1\bf0d25631e56d41ec82c3a9016a494aa\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kanth\OneDrive\Dokumenty\Moje projekty\Praca inzynierska\Android\XmegaControl\app\src\main\AndroidManifest.xml

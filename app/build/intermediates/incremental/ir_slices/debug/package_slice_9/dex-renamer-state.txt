@@ -1,0 +1,4 @@
+#Sun Aug 18 23:42:15 CEST 2019
+base.0=C\:\\Users\\kanth\\OneDrive\\Dokumenty\\Moje projekty\\Praca inzynierska\\Android\\XmegaControl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

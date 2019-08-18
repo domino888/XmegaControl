@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppBackgroundColor"
+    tools:context="com.example.dominik.xmegacontrol.POTFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textAlignment="center"
+        android:textColor="@color/TitleColor"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/TitleTextview"
+        android:textStyle="bold"
+        android:background="@color/TitleBackgroundColor"
+        android:text="@string/POT_text" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleTextview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="0sp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="@string/Potentiometr1"
+            android:textAlignment="center"
+            android:textColor="@color/DarkColor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:maxLines="1"
+            android:textColor="@color/DarkColor"
+            android:text="@string/BinValue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Potentiometer1StatusBin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:maxLines="1"
+            android:textColor="@color/DarkColor"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:maxLines="1"
+            android:textColor="@color/DarkColor"
+            android:text="@string/HexValue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Potentiometer1StatusHex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:maxLines="1"
+            android:textColor="@color/DarkColor"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+        <Button
+            android:id="@+id/MeasurePotentiometer1"
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:backgroundTint="@color/ButtonColor"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="@string/MeasurePotentiometr1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleTextview"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="200sp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="@string/Potentiometr2"
+            android:textAlignment="center"
+            android:textColor="@color/DarkColor"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:maxLines="1"
+                android:textColor="@color/DarkColor"
+                android:text="@string/BinValue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Potentiometer2StatusBin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:maxLines="1"
+            android:textColor="@color/DarkColor"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:maxLines="1"
+                android:textColor="@color/DarkColor"
+                android:text="@string/HexValue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Potentiometer2StatusHex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:maxLines="1"
+                android:textColor="@color/DarkColor"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/MeasurePotentiometer2"
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:backgroundTint="@color/ButtonColor"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="@string/MeasurePotentiometr2" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="460sp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/arrow2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500sp"
+        android:text="@string/scrollText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10sp"
+        android:layout_marginTop="460sp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/arrow" />
+</RelativeLayout>

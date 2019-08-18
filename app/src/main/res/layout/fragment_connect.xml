@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/connect_fragment"
+    android:background="@color/AppBackgroundColor"
+    tools:context="com.example.dominik.xmegacontrol.ConnectFragment">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:textAlignment="center"
+            android:textColor="@color/TitleColor"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@color/TitleBackgroundColor"
+            android:id="@+id/TitleTextview"
+            android:textStyle="bold"
+            android:text="@string/Connect_text"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/TitleTextview"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0sp"
+            android:layout_marginTop="30sp"
+            android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="@string/Status"
+                            android:textAlignment="center"
+                            android:textColor="@color/DarkColor"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/BluetoothStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            android:maxLines="1"
+                            android:textColor="@color/DarkColor"
+                            android:textSize="20sp"
+                            android:hint="@string/ConnectHint"
+                            android:textStyle="normal" />
+                </LinearLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill"
+                    android:layout_marginStart="0sp"
+                    android:layout_marginTop="30sp"
+                    android:columnCount="2">
+                        <Button
+                            android:id="@+id/ShowPairedDevices"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60sp"
+                            android:layout_row="0"
+                            android:layout_column="1"
+                            android:layout_columnWeight="1"
+                            android:layout_gravity="fill_horizontal"
+                            android:backgroundTint="@color/ButtonColor"
+                            android:textStyle="bold"
+                            android:text="@string/ShowPairedDevices" />
+                        <Button
+                            android:id="@+id/DiscoverNewDevices"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60sp"
+                            android:layout_row="0"
+                            android:layout_column="0"
+                            android:layout_columnWeight="2"
+                            android:layout_gravity="fill_horizontal"
+                            android:backgroundTint="@color/ButtonColor"
+                            android:textStyle="bold"
+                            android:text="@string/DiscoverNewDevices" />
+                        <Button
+                            android:id="@+id/OnOffBluetooth"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60sp"
+                            android:layout_row="1"
+                            android:layout_column="0"
+                            android:layout_columnSpan="2"
+                            android:layout_gravity="fill"
+                            android:backgroundTint="@color/ButtonColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:text="@string/OnBluetooth" />
+                </GridLayout>
+                <ListView
+                    android:id="@+id/DevicesListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="190sp"
+                    android:choiceMode="singleChoice" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="460sp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/arrow2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500sp"
+            android:text="@string/scrollText"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="460sp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow" />
+</RelativeLayout>
